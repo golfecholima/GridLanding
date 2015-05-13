@@ -3,16 +3,16 @@
 .square {
 	float:left;
     position: relative;
-    padding-bottom: 30%; /* = width for a 1:1 aspect ratio */
+    padding-bottom: 30%; /* = width for a 1:1 aspect ratio *** switching to 100% almost fixes the single column issue.*/
     margin:1.66%;
     overflow:hidden;
 }
 
 .content {
 	position:absolute;
-    height:90%; /* = 100% - 2*10% padding */
+    height:80%; /* = 100% - 2*10% padding */
     width:90%; /* = 100% - 2*5% padding */
-    padding: 5% 5%;
+    padding: 10% 5%;
     background-color: purple;
     color: white;
 }
